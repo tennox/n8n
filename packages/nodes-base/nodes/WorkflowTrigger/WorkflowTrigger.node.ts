@@ -46,6 +46,7 @@ export class WorkflowTrigger implements INodeType {
 				],
 			},
 		],
+	activationMessage: 'Your workflow will now trigger executions on the event you have defined.',
 	};
 
 

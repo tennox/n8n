@@ -817,6 +817,7 @@ export interface INodeTypeDescription extends INodeTypeBaseDescription {
 		deactivate?: INodeHookDescription[];
 	};
 	webhooks?: IWebhookDescription[];
+	activationMessage?: string;
 }
 
 export interface INodeHookDescription {

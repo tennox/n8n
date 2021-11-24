@@ -32,6 +32,7 @@ export class SseTrigger implements INodeType {
 				required: true,
 			},
 		],
+		activationMessage: 'You can now make calls to your SSE URL to trigger executions.',
 	};
 
 
